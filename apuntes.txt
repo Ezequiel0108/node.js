@@ -1,0 +1,18 @@
+//iniciar paquetes npm
+npm init
+Dejas la versión por default, el nombre si quieres lo cambias, la descripción agregas 
+alguna todo le das enter pero lee.
+//si quieres iniciar el paquete con valores por default sin que tu los pongas;
+npm init --yes
+
+//instalar expreess
+https://www.npmjs.com/package/express
+// desinstalar express
+
+npm uninstall express
+
+//instalar version especifica express
+npm install express@"aqui junto sin comillas pones la versión"
+//instalar dependencias como dependencias de desarrollo
+en este caso el ejemplo es con express:
+npm install express --save-dev
